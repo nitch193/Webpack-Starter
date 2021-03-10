@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const t=document.getElementById("main");let e=0;t.style.display="flex",t.style.flexDirection="column",t.style.textAlign="center";const l=document.querySelector(".toggle");l.addEventListener("click",(()=>{l.textContent=1&e?"🌞":"🌙",l.classList.toggle("toggle-light"),t.classList.toggle("light"),e++}))})()})();
